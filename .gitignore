@@ -1,0 +1,14 @@
+node_modules/
+dist/
+teacher-data.db
+teacher-data.db-shm
+teacher-data.db-wal
+output/
+*.db-journal
+*.db-wal
+.env
+documents/
+.omc/
+
+# Local SQLite data
+teacher-data/

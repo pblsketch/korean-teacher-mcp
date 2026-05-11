@@ -1,0 +1,41 @@
+# korean-teacher-mcp — Windsurf 프로젝트 규칙
+
+## 프로젝트 개요
+
+한국 중등 국어 교과서(교과서) 데이터를 기반으로 교사의 수업 설계·평가·자료 제작을 AI로 지원하는 MCP 서버입니다.
+
+## 핵심 원칙
+
+- Skills(스킬) = 절차와 품질 기준 → MCP 리소스 `skill://teacher/...`로 접근
+- Tools(도구) = 데이터 접근 + 기계적 처리 → MCP 도구로 호출
+- 교사 요청 → 스킬 매칭 → 워크플로우 수행 → 도구 호출 → 결과 출력
+
+## 스킬 라우팅
+
+- 루브릭/평가기준표 → teacher-rubric
+- 수행평가 계획 → teacher-assessment
+- 퀴즈/문항 → teacher-quiz
+- 학습지/활동지 → teacher-instructional-materials
+- 수업/단원 설계 → teacher-lesson-planning
+- PBL/프로젝트 → teacher-pbl
+- 수준별 맞춤 → teacher-differentiation
+- 사고 루틴 → teacher-thinking-routines
+- UDL → teacher-udl
+- AI 과제 재설계 → teacher-ai-task-redesign
+- SDGs → teacher-sdgs
+- 개념 기반 탐구 → teacher-concept-based-inquiry
+
+## 출력 형식
+
+- 기본: 마크다운
+- 한글 파일 → export_hwpx
+- PPT → export_pptx
+- 다이어그램 → generate_mindmap (Mermaid.js)
+
+## 코드 구조
+
+- `src/tools/` — MCP 도구 구현
+- `src/prompts/` — 교육 전문가 시스템 프롬프트
+- `src/resources/skills/` — 스킬 워크플로우 및 참조 문서
+- `hwpxskill-scripts/` — HWPX 빌드 Python 스크립트
+- `hwpxskill-templates/` — HWPX 템플릿

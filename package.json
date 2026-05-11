@@ -1,0 +1,71 @@
+{
+  "name": "@pblsketch/korean-teacher-mcp",
+  "version": "1.0.0",
+  "description": "한국 교사를 위한 AI 수업 설계·평가·자료 제작 MCP 서버. 어떤 출판사 교과서든 PDF를 업로드하면 활동지, 평가지, 루브릭, HWPX/PPTX 등을 자동 생성합니다.",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "korean-teacher-mcp": "dist/server.js"
+  },
+  "files": [
+    "dist/",
+    "hwpxskill-scripts/",
+    "hwpxskill-templates/",
+    "README.md",
+    "AGENTS.md"
+  ],
+  "scripts": {
+    "build": "tsc && cp -r src/resources dist/",
+    "dev": "tsx src/server.ts",
+    "dev:http": "tsx src/server.ts --http",
+    "start": "node dist/server.js",
+    "start:http": "node dist/server.js --http",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "education",
+    "korean",
+    "teacher",
+    "hwpx",
+    "pptx",
+    "rubric",
+    "pbl",
+    "assessment",
+    "worksheet",
+    "ai-tools",
+    "korean-education"
+  ],
+  "author": "pblsketch",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pblsketch/korean-teacher-mcp.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.2",
+    "@modelcontextprotocol/sdk": "latest",
+    "@types/adm-zip": "^0.5.8",
+    "adm-zip": "^0.5.17",
+    "dotenv": "^17.4.1",
+    "express": "^5.1.0",
+    "kordoc": "^2.2.6",
+    "pdfjs-dist": "^5.6.205",
+    "pptxgenjs": "^4.0.1",
+    "uuid": "^9.0.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/uuid": "^9.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

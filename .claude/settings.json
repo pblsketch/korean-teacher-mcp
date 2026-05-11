@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "korean-teacher": {
+      "command": "node",
+      "args": ["E:\\github\\korean-teacher-mcp\\dist\\server.js"],
+      "env": {
+        "TURSO_DATABASE_URL": "${env:TURSO_DATABASE_URL}",
+        "TURSO_AUTH_TOKEN": "${env:TURSO_AUTH_TOKEN}"
+      }
+    }
+  }
+}

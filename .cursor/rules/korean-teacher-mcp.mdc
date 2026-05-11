@@ -1,0 +1,58 @@
+---
+description: 교과서 국어 MCP 서버 프로젝트 규칙. 교사의 수업 설계·평가·자료 제작 요청을 처리할 때 이 규칙을 따릅니다.
+globs:
+alwaysApply: true
+---
+
+# 교과서 국어 MCP — Cursor 프로젝트 규칙
+
+## 프로젝트 개요
+
+이 프로젝트는 한국 중등 국어 교과서(교과서) 데이터를 기반으로 교사의 수업 설계·평가·자료 제작을 AI로 지원하는 MCP 서버입니다.
+
+## 핵심 원칙: Skills + Tools 분리
+
+- **Skills** = 절차와 품질 기준 (전문성). MCP 리소스 `skill://teacher/...`로 접근
+- **Tools** = 데이터 접근 + 기계적 처리 (기능). MCP 도구로 호출
+
+## 워크플로우
+
+1. 교사 요청 수신 → 트리거 키워드로 적절한 스킬 매칭
+2. 스킬의 워크플로우(절차)를 따라 작업 수행
+3. MCP 도구를 호출하여 DB 검색 및 결과물 생성
+4. 요청된 형식(마크다운/HWPX/PPTX/Mermaid)으로 출력
+
+## 스킬 라우팅 맵
+
+| 요청 유형 | 사용할 스킬 | 주요 MCP 도구 |
+|-----------|------------|--------------|
+| 루브릭/평가기준표 | teacher-rubric | search_content, export_hwpx |
+| 수행평가 계획 | teacher-assessment | search_content, generate_assessment |
+| 퀴즈/문항 | teacher-quiz | search_content |
+| 학습지/활동지 | teacher-instructional-materials | search_content, generate_worksheet |
+| 수업/단원 설계 | teacher-lesson-planning | search_content |
+| PBL/프로젝트 | teacher-pbl | search_content, generate_pbl |
+| 수준별 맞춤 | teacher-differentiation | search_content |
+| 사고 루틴 | teacher-thinking-routines | thinking_tool, export_thinking_tool |
+| UDL 설계 | teacher-udl | search_content |
+| AI 과제 재설계 | teacher-ai-task-redesign | search_content |
+| SDGs 연계 | teacher-sdgs | search_content |
+| 개념 기반 탐구 | teacher-concept-based-inquiry | search_content |
+| 생기부 코멘트 | (직접) | generate_student_comment |
+| 어휘 분석 | (직접) | analyze_vocabulary_level |
+| 마인드맵/다이어그램 | (직접) | generate_mindmap |
+
+## 출력 형식 규칙
+
+- 기본 출력: 마크다운
+- "한글 파일로" 요청 시: `export_hwpx` 도구 사용
+- "PPT로" 요청 시: `export_pptx` 도구 사용
+- "다이어그램으로" 요청 시: `generate_mindmap` 도구 사용 (Mermaid.js 코드)
+
+## 코드 수정 시 주의사항
+
+- `src/tools/` — 각 MCP 도구 구현. `McpServer`와 DB 인스턴스를 받아 등록하는 패턴
+- `src/prompts/` — MCP 프롬프트 리소스 (교육 전문가 시스템 프롬프트)
+- `src/resources/skills/` — 스킬 워크플로우 및 참조 문서 (MCP 리소스로 노출됨)
+- `hwpxskill-scripts/` — HWPX 빌드 Python 스크립트
+- `hwpxskill-templates/` — HWPX 템플릿 파일
