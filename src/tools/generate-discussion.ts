@@ -48,6 +48,12 @@ export function registerDiscussionTool(server: McpServer, db: Client) {
         '',
         `## 지문 (${passages.length}개)`,
         ...passages.map(p => `### ${p.title}${p.author ? ` (${p.author})` : ''} [${p.genre}]\n${p.content}\n`),
+        `## HWPX 출력 안내`,
+        ``,
+        `토의토론 활동지는 export_hwpx 도구로 HWPX 파일로 출력할 수 있습니다.`,
+        `- **template**: \`"discussion"\``,
+        `- **section_xml**: discussion 템플릿의 플레이스홀더에 내용을 채워서 전달`,
+        ``,
         `## 교사 발문 참고`,
         ...context.teacher_notes.map(n => {
           const questions = JSON.parse(n.questions) as string[];

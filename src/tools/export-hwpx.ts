@@ -19,7 +19,7 @@ function getDefaultOutputDir(): string {
   return path.join(os.homedir(), 'Downloads');
 }
 
-const TEMPLATE_TYPES = ['worksheet', 'lesson-plan', 'assessment', 'pbl', 'discussion', 'report', 'gonmun', 'minutes', 'proposal'] as const;
+const TEMPLATE_TYPES = ['worksheet', 'lesson-plan', 'assessment', 'pbl', 'discussion', 'report', 'gonmun', 'minutes', 'proposal', 'parent-newsletter', 'checklist', 'roster'] as const;
 
 const HWPX_DESCRIPTION = `HWPX(한글) 문서를 생성합니다.
 
@@ -69,6 +69,9 @@ section_xml에 OWPML 형식의 section0.xml 내용을 직접 작성하세요.
 - **pbl** (PBL 수업자료): 프로젝트 기반 학습 수업 설계안
 - **discussion** (토의토론 수업자료): 토의토론 활동 설계안
 - **proposal** (제안서): 제안서 형식
+- **parent-newsletter** (가정통신문): 학부모 안내문
+- **checklist** (체크리스트): 업무 체크리스트
+- **roster** (명렬표): 학생 명렬표/자리배치도
 
 ### 폰트 규칙
 모든 템플릿 공통: **함초롬바탕** (본문, 제목, 소제목, 강조 모두 동일)

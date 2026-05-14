@@ -1,0 +1,138 @@
+import { z } from 'zod';
+import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
+
+export function registerWorkPlanTool(server: McpServer) {
+  server.tool(
+    'generate_work_plan',
+    '업무 계획서(교육 계획서, 행사 계획서, 운영 계획서 등) 작성을 위한 가이드라인과 프롬프트를 반환합니다. 학교 현장의 표준 계획서 형식에 맞추어 구조화된 지침을 제공합니다. 결과물은 export_hwpx의 proposal 템플릿으로 HWPX 파일로 출력할 수 있습니다.',
+    {
+      content: z.string().describe('계획서 내용 또는 참고 자료 (행사 개요, 기존 계획, 메모 등)'),
+      plan_title: z.string().optional().describe('계획서 제목 (예: "2026학년도 1학기 현장체험학습 운영 계획")'),
+      plan_type: z.enum(['education', 'event', 'operation', 'budget', 'other']).default('education').describe('유형: education=교육계획, event=행사계획, operation=운영계획, budget=예산계획, other=기타'),
+      period: z.string().optional().describe('운영 기간 (예: "2026. 5. ~ 2026. 7.")'),
+      target: z.string().optional().describe('대상 (예: "전교생", "3학년", "교직원")'),
+      school_name: z.string().optional().describe('학교명'),
+      department: z.string().optional().describe('부서명'),
+      instructions: z.string().optional().describe('추가 지침'),
+    },
+    async (params) => {
+      const planTitle = params.plan_title || '○○ 운영 계획';
+      const schoolName = params.school_name || '○○학교';
+      const department = params.department || '○○부';
+
+      const typeGuides: Record<string, string> = {
+        education: [
+          `### 교육 계획서`,
+          `- 교육 목표 (성취기준 연계)`,
+          `- 교육 내용 및 방법`,
+          `- 차시별 운영 계획`,
+          `- 평가 계획`,
+          `- 기대 효과`,
+        ].join('\n'),
+        event: [
+          `### 행사 계획서`,
+          `- 행사 목적`,
+          `- 일시, 장소, 대상`,
+          `- 세부 일정 (시간표)`,
+          `- 역할 분담표`,
+          `- 예산 계획`,
+          `- 안전 대책`,
+        ].join('\n'),
+        operation: [
+          `### 운영 계획서`,
+          `- 운영 목적 및 방침`,
+          `- 운영 조직 (담당자, 역할)`,
+          `- 운영 내용 (월별/주별)`,
+          `- 기대 효과 및 환류 방안`,
+        ].join('\n'),
+        budget: [
+          `### 예산 계획서`,
+          `- 예산 총괄표 (항목별 금액)`,
+          `- 세부 산출 근거`,
+          `- 집행 일정`,
+          `- 정산 방법`,
+        ].join('\n'),
+        other: [
+          `### 기타 계획서`,
+          `- 목적 및 필요성`,
+          `- 추진 내용`,
+          `- 세부 추진 일정`,
+          `- 기대 효과`,
+        ].join('\n'),
+      };
+
+      const guideMarkdown = [
+        `# 업무 계획서 생성 가이드`,
+        ``,
+        `## 입력 정보`,
+        `- 제목: ${planTitle}`,
+        `- 유형: ${params.plan_type}`,
+        `- 기관: ${schoolName} ${department}`,
+        params.period ? `- 기간: ${params.period}` : '',
+        params.target ? `- 대상: ${params.target}` : '',
+        ``,
+        `## 참고 내용`,
+        `${params.content}`,
+        ``,
+        params.instructions ? `## 추가 지침\n${params.instructions}\n` : '',
+        `## 유형별 구성 요소`,
+        ``,
+        typeGuides[params.plan_type],
+        ``,
+        `## 계획서 작성 규칙`,
+        ``,
+        `### 표준 구조`,
+        `1. **목적**: 왜 이 계획을 수립하는지 (1~3문장)`,
+        `2. **방침/원칙**: 운영의 기본 원칙 (3~5개 항목)`,
+        `3. **추진 내용**: 세부 추진 사항 (표 형식 권장)`,
+        `4. **추진 일정**: 월별/주별 일정표`,
+        `5. **추진 체계**: 담당자, 역할, 조직도`,
+        `6. **예산**: 소요 예산 (항목별)`,
+        `7. **기대 효과**: 예상 성과 (2~3개)`,
+        `8. **붙임**: 관련 자료`,
+        ``,
+        `### 문체 규칙`,
+        `- 명사형 종결: "~함", "~임", "~할 예정임"`,
+        `- 항목 번호: "1.", "가.", "1)", "가)" 계층 구조`,
+        `- 날짜: "2026. 5. 14.(수)" 형식`,
+        `- 표 활용: 일정, 예산, 역할 등은 표로 정리`,
+        ``,
+        `### 금지 사항`,
+        `- 추상적 목표 금지 (구체적·측정 가능하게)`,
+        `- 담당자 미지정 금지 (모든 항목에 담당 명시)`,
+        `- 기한 미설정 금지 (추진 일정 필수)`,
+        ``,
+        `## HWPX 출력 방법`,
+        ``,
+        `\`export_hwpx\` 도구를 사용하여 HWPX 파일로 출력하세요.`,
+        ``,
+        `### export_hwpx 파라미터`,
+        `- **template**: \`"proposal"\``,
+        `- **section_xml**: 아래 구조에 맞추어 내용 작성`,
+        ``,
+        `### 플레이스홀더 매핑`,
+        `- {{제목}}: ${planTitle}`,
+        `- {{기관명}}: ${schoolName}`,
+        `- {{부서명}}: ${department}`,
+        params.period ? `- {{기간}}: ${params.period}` : '',
+        params.target ? `- {{대상}}: ${params.target}` : '',
+        `- {{본문내용}}: 계획서 본문`,
+        `- {{표 또는 상세내용}}: 세부 내용 (markdown 표 사용 가능)`,
+        ``,
+        `## 예시`,
+        ``,
+        `> **1. 목적**`,
+        `> 학생들의 체험 중심 학습 기회 제공 및 교육과정 연계 현장체험학습 운영`,
+        `>`,
+        `> **2. 방침**`,
+        `> 가. 교육과정과 연계한 체험학습 프로그램 운영`,
+        `> 나. 안전 최우선 원칙 적용`,
+        `> 다. 사전·사후 교육 실시`,
+      ].filter(Boolean).join('\n');
+
+      return {
+        content: [{ type: 'text' as const, text: guideMarkdown }],
+      };
+    },
+  );
+}

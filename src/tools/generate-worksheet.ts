@@ -44,6 +44,12 @@ export function registerWorksheetTool(server: McpServer, db: Client) {
         ...context.passages.map(p => `### ${p.title}${p.author ? ` (${p.author})` : ''}\n${p.content}\n`),
         `## 기존 활동 (${context.activities.length}개)`,
         ...context.activities.map((a, i) => `### 활동 ${i + 1}\n${a.content}\n`),
+        `## HWPX 출력 안내`,
+        ``,
+        `활동지는 export_hwpx 도구로 HWPX 파일로 출력할 수 있습니다.`,
+        `- **template**: \`"worksheet"\``,
+        `- **section_xml**: worksheet 템플릿의 플레이스홀더에 내용을 채워서 전달`,
+        ``,
         `## 교사 노트 (${context.teacher_notes.length}개)`,
         ...context.teacher_notes.map(n => `${n.tips}\n발문: ${JSON.parse(n.questions).join(', ')}\n`),
       ].filter(Boolean).join('\n');

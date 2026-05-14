@@ -21,6 +21,20 @@ import { registerDifferentiatedTextTool } from './tools/generate-differentiated-
 import { registerVocabularyAnalysisTool } from './tools/analyze-vocabulary-level.js';
 import { registerMindmapTool } from './tools/generate-mindmap.js';
 import { registerListTools } from './tools/list-content.js';
+import { registerOfficialDocumentTool } from './tools/generate-official-document.js';
+import { registerParentNewsletterTool } from './tools/generate-parent-newsletter.js';
+import { registerMeetingMinutesTool } from './tools/generate-meeting-minutes.js';
+import { registerParentMessageTool } from './tools/generate-parent-message.js';
+import { registerSummarizeDocumentTool } from './tools/summarize-document.js';
+import { registerQuizTool } from './tools/generate-quiz.js';
+import { registerWorkPlanTool } from './tools/generate-work-plan.js';
+import { registerWorkChecklistTool } from './tools/generate-work-checklist.js';
+import { registerCheckDocumentFormatTool } from './tools/check-document-format.js';
+import { registerCheckPiiTool } from './tools/check-pii.js';
+import { registerHistoricalDialogueTool } from './tools/generate-historical-dialogue.js';
+import { registerCharacterRoleplayTool } from './tools/generate-character-roleplay.js';
+import { registerSeatingChartTool } from './tools/generate-seating-chart.js';
+import { registerStudentRosterTool } from './tools/generate-student-roster.js';
 import { PROMPTS } from './prompts/index.js';
 import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -58,6 +72,28 @@ async function createServer() {
   registerVocabularyAnalysisTool(server, db);
   registerMindmapTool(server, db);
   registerListTools(server, db);
+
+  // Phase 1: 행정 문서 및 요약 도구
+  registerOfficialDocumentTool(server);
+  registerParentNewsletterTool(server);
+  registerMeetingMinutesTool(server);
+  registerParentMessageTool(server);
+  registerSummarizeDocumentTool(server);
+
+  // Phase 2: 퀴즈, 계획서, 체크리스트, 문서 검사
+  registerQuizTool(server);
+  registerWorkPlanTool(server);
+  registerWorkChecklistTool(server);
+  registerCheckDocumentFormatTool(server);
+
+  // Phase 3: 개인정보 검사, 역사 대화, 캐릭터 역할극
+  registerCheckPiiTool(server);
+  registerHistoricalDialogueTool(server);
+  registerCharacterRoleplayTool(server);
+
+  // Phase 4: 자리배치도, 명렬표
+  registerSeatingChartTool(server);
+  registerStudentRosterTool(server);
 
   // Register prompt resources
   for (const [id, prompt] of Object.entries(PROMPTS)) {

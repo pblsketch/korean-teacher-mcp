@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hs:sec xmlns:hp="http://www.hancom.co.kr/hwpml/2011/paragraph" xmlns:hs="http://www.hancom.co.kr/hwpml/2011/section">
+  <!-- 1. secPr + colPr paragraph -->
+  <hp:p id="1000000001" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:secPr id="" textDirection="HORIZONTAL" spaceColumns="1134" tabStop="8000" tabStopVal="4000" tabStopUnit="HWPUNIT" outlineShapeIDRef="1" memoShapeIDRef="0" textVerticalWidthHead="0" masterPageCnt="0">
+        <hp:grid lineGrid="0" charGrid="0" wonggojiFormat="0"/>
+        <hp:startNum pageStartsOn="BOTH" page="0" pic="0" tbl="0" equation="0"/>
+        <hp:visibility hideFirstHeader="0" hideFirstFooter="0" hideFirstMasterPage="0" border="SHOW_ALL" fill="SHOW_ALL" hideFirstPageNum="0" hideFirstEmptyLine="0" showLineNumber="0"/>
+        <hp:lineNumberShape restartType="0" countBy="0" distance="0" startNumber="0"/>
+        <hp:pagePr landscape="WIDELY" width="59528" height="84186" gutterType="LEFT_ONLY">
+          <hp:margin header="4252" footer="4252" gutter="0" left="8504" right="8504" top="5668" bottom="4252"/>
+        </hp:pagePr>
+        <hp:footNotePr>
+          <hp:autoNumFormat type="DIGIT" userChar="" prefixChar="" suffixChar=")" supscript="0"/>
+          <hp:noteLine length="-1" type="SOLID" width="0.12 mm" color="#000000"/>
+          <hp:noteSpacing betweenNotes="283" belowLine="567" aboveLine="850"/>
+          <hp:numbering type="CONTINUOUS" newNum="1"/>
+          <hp:placement place="EACH_COLUMN" beneathText="0"/>
+        </hp:footNotePr>
+        <hp:endNotePr>
+          <hp:autoNumFormat type="DIGIT" userChar="" prefixChar="" suffixChar=")" supscript="0"/>
+          <hp:noteLine length="14692344" type="SOLID" width="0.12 mm" color="#000000"/>
+          <hp:noteSpacing betweenNotes="0" belowLine="567" aboveLine="850"/>
+          <hp:numbering type="CONTINUOUS" newNum="1"/>
+          <hp:placement place="END_OF_DOCUMENT" beneathText="0"/>
+        </hp:endNotePr>
+        <hp:pageBorderFill type="BOTH" borderFillIDRef="1" textBorder="PAPER" headerInside="0" footerInside="0" fillArea="PAPER">
+          <hp:offset left="1417" right="1417" top="1417" bottom="1417"/>
+        </hp:pageBorderFill>
+        <hp:pageBorderFill type="EVEN" borderFillIDRef="1" textBorder="PAPER" headerInside="0" footerInside="0" fillArea="PAPER">
+          <hp:offset left="1417" right="1417" top="1417" bottom="1417"/>
+        </hp:pageBorderFill>
+        <hp:pageBorderFill type="ODD" borderFillIDRef="1" textBorder="PAPER" headerInside="0" footerInside="0" fillArea="PAPER">
+          <hp:offset left="1417" right="1417" top="1417" bottom="1417"/>
+        </hp:pageBorderFill>
+      </hp:secPr>
+      <hp:ctrl>
+        <hp:colPr id="" type="NEWSPAPER" layout="LEFT" colCount="1" sameSz="1" sameGap="0"/>
+      </hp:ctrl>
+    </hp:run>
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 2. School name (center, title style) -->
+  <hp:p id="1000000002" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="7">
+      <hp:t>{{학교명}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 3. Empty line -->
+  <hp:p id="1000000003" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 4. Newsletter title (center, subtitle style) -->
+  <hp:p id="1000000004" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="8">
+      <hp:t>- {{제목}} -</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 5. Empty line -->
+  <hp:p id="1000000005" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 6. Greeting -->
+  <hp:p id="1000000006" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>{{인사말}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 7. Empty line -->
+  <hp:p id="1000000007" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 8. Main body -->
+  <hp:p id="1000000008" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>{{본문내용}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 9. Empty line -->
+  <hp:p id="1000000009" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 10. Details section header -->
+  <hp:p id="1000000010" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="9">
+      <hp:t>{{세부안내}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 11. Empty line -->
+  <hp:p id="1000000011" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 12. Table or detailed content -->
+  <hp:p id="1000000012" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>{{표 또는 상세내용}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 13. Empty line -->
+  <hp:p id="1000000013" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 14. Inquiry info -->
+  <hp:p id="1000000014" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>{{문의안내}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 15. Empty line x2 -->
+  <hp:p id="1000000015" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <hp:p id="1000000016" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 16. Date (center) -->
+  <hp:p id="1000000017" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>{{날짜}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 17. Empty line -->
+  <hp:p id="1000000018" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 18. School principal name (center, subtitle style) -->
+  <hp:p id="1000000019" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="8">
+      <hp:t>{{학교장명}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 19. Empty line -->
+  <hp:p id="1000000020" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 20. Separator -->
+  <hp:p id="1000000021" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="9">
+      <hp:t>- - - - - - - - - - - - - - - - - - - 절 취 선 - - - - - - - - - - - - - - - - - - -</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 21. Empty line -->
+  <hp:p id="1000000022" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 22. Reply section title (center) -->
+  <hp:p id="1000000023" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="8">
+      <hp:t>{{회신제목}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 23. Empty line -->
+  <hp:p id="1000000024" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 24. Reply form content (table or checkboxes) -->
+  <hp:p id="1000000025" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>{{회신내용}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- 25. Empty line -->
+  <hp:p id="1000000026" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t/>
+    </hp:run>
+  </hp:p>
+  <!-- 26. Guardian signature line -->
+  <hp:p id="1000000027" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>     학년     반     번   학생 이름:               보호자 서명:             </hp:t>
+    </hp:run>
+  </hp:p>
+</hs:sec>

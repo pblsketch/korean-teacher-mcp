@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<hs:sec xmlns:hp="http://www.hancom.co.kr/hwpml/2011/paragraph" xmlns:hs="http://www.hancom.co.kr/hwpml/2011/section" xmlns:ha="http://www.hancom.co.kr/hwpml/2011/app" xmlns:hp10="http://www.hancom.co.kr/hwpml/2016/paragraph" xmlns:hc="http://www.hancom.co.kr/hwpml/2011/core" xmlns:hh="http://www.hancom.co.kr/hwpml/2011/head" xmlns:hhs="http://www.hancom.co.kr/hwpml/2011/history" xmlns:hm="http://www.hancom.co.kr/hwpml/2011/master-page" xmlns:hpf="http://www.hancom.co.kr/schema/2011/hpf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf/" xmlns:ooxmlchart="http://www.hancom.co.kr/hwpml/2016/ooxmlchart" xmlns:hwpunitchar="http://www.hancom.co.kr/hwpml/2016/HwpUnitChar" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0">
-  <!-- 1. First paragraph with secPr + colPr -->
+<hs:sec xmlns:hp="http://www.hancom.co.kr/hwpml/2011/paragraph" xmlns:hs="http://www.hancom.co.kr/hwpml/2011/section" xmlns:hc="http://www.hancom.co.kr/hwpml/2011/core" xmlns:hh="http://www.hancom.co.kr/hwpml/2011/head" xmlns:ha="http://www.hancom.co.kr/hwpml/2011/app" xmlns:hp10="http://www.hancom.co.kr/hwpml/2016/paragraph" xmlns:hhs="http://www.hancom.co.kr/hwpml/2011/history" xmlns:hm="http://www.hancom.co.kr/hwpml/2011/master-page" xmlns:hpf="http://www.hancom.co.kr/schema/2011/hpf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf/" xmlns:ooxmlchart="http://www.hancom.co.kr/hwpml/2016/ooxmlchart" xmlns:hwpunitchar="http://www.hancom.co.kr/hwpml/2016/HwpUnitChar" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0">
+  <!-- secPr + colPr -->
   <hp:p id="1000000001" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0">
       <hp:secPr id="" textDirection="HORIZONTAL" spaceColumns="1134" tabStop="8000" tabStopVal="4000" tabStopUnit="HWPUNIT" outlineShapeIDRef="1" memoShapeIDRef="0" textVerticalWidthHead="0" masterPageCnt="0">
@@ -42,160 +42,447 @@
     <hp:run charPrIDRef="0">
       <hp:t/>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
   </hp:p>
-  <!-- 2. Empty line -->
+  <!-- Empty lines x3 -->
   <hp:p id="1000000002" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t/>
-    </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
   </hp:p>
-  <!-- 3. Title -->
-  <hp:p id="1000000003" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="1000000003" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <hp:p id="1000000004" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Title (16pt bold, centered) -->
+  <hp:p id="1000000005" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="7">
       <hp:t>{{보고서 제목}}</hp:t>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="2000" textheight="2000" baseline="1700" spacing="1200" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
   </hp:p>
-  <!-- 4. Empty line -->
-  <hp:p id="1000000004" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t/>
+  <!-- Empty line -->
+  <hp:p id="1000000006" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Subtitle (12pt bold, centered) -->
+  <hp:p id="1000000007" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="8">
+      <hp:t>{{문서 유형 또는 부제}}</hp:t>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
   </hp:p>
-  <!-- 5. Date -->
-  <hp:p id="1000000005" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t>{{작성일: YYYY년 MM월 DD일}}</hp:t>
-    </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
-  </hp:p>
-  <!-- 6. Author -->
-  <hp:p id="1000000006" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t>{{작성자/부서}}</hp:t>
-    </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
-  </hp:p>
-  <!-- 7. Empty line x2 -->
-  <hp:p id="1000000007" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t/>
-    </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
-  </hp:p>
+  <!-- Empty lines x3 -->
   <hp:p id="1000000008" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t/>
-    </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
   </hp:p>
-  <!-- 8. Section heading 1 -->
   <hp:p id="1000000009" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <hp:p id="1000000010" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Metadata table: 2 cols x 4 rows -->
+  <hp:p id="1000000011" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:tbl id="1000000090" zOrder="0" numberingType="TABLE" textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES" lock="0" dropcapstyle="None" pageBreak="CELL" repeatHeader="0" cellSpacing="0" borderFillIDRef="3" noAdjust="0" rowCnt="4" colCnt="2">
+        <hp:sz width="42520" widthRelTo="ABSOLUTE" height="9600" heightRelTo="ABSOLUTE" protect="0"/>
+        <hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1" allowOverlap="0" holdAnchorAndSO="0" vertRelTo="PARA" horzRelTo="COLUMN" vertAlign="TOP" horzAlign="LEFT" vertOffset="0" horzOffset="0"/>
+        <hp:outMargin left="0" right="0" top="0" bottom="0"/>
+        <hp:inMargin left="0" right="0" top="0" bottom="0"/>
+        <!-- Row 0: 문서번호 -->
+        <hp:tr>
+          <hp:tc borderFillIDRef="4">
+            <hp:cellAddr colAddr="0" rowAddr="0"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="8504" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7938" fieldName="">
+              <hp:p id="2000000001" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="9">
+                  <hp:t>문 서 번 호</hp:t>
+                </hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="1" rowAddr="0"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="34016" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="33450" fieldName="">
+              <hp:p id="2000000002" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0">
+                  <hp:t>{{문서번호}}</hp:t>
+                </hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+        </hp:tr>
+        <!-- Row 1: 작성일자 -->
+        <hp:tr>
+          <hp:tc borderFillIDRef="4">
+            <hp:cellAddr colAddr="0" rowAddr="1"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="8504" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7938" fieldName="">
+              <hp:p id="2000000003" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="9">
+                  <hp:t>작 성 일 자</hp:t>
+                </hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="1" rowAddr="1"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="34016" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="33450" fieldName="">
+              <hp:p id="2000000004" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0">
+                  <hp:t>{{YYYY년 MM월 DD일}}</hp:t>
+                </hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+        </hp:tr>
+        <!-- Row 2: 작성자 -->
+        <hp:tr>
+          <hp:tc borderFillIDRef="4">
+            <hp:cellAddr colAddr="0" rowAddr="2"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="8504" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7938" fieldName="">
+              <hp:p id="2000000005" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="9">
+                  <hp:t>작  성  자</hp:t>
+                </hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="1" rowAddr="2"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="34016" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="33450" fieldName="">
+              <hp:p id="2000000006" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0">
+                  <hp:t>{{작성자 성명}}</hp:t>
+                </hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+        </hp:tr>
+        <!-- Row 3: 부서 -->
+        <hp:tr>
+          <hp:tc borderFillIDRef="4">
+            <hp:cellAddr colAddr="0" rowAddr="3"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="8504" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7938" fieldName="">
+              <hp:p id="2000000007" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="9">
+                  <hp:t>부      서</hp:t>
+                </hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="1" rowAddr="3"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="34016" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="33450" fieldName="">
+              <hp:p id="2000000008" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0">
+                  <hp:t>{{부서/학년/학과}}</hp:t>
+                </hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+        </hp:tr>
+      </hp:tbl>
+    </hp:run>
+  </hp:p>
+  <!-- Empty lines x2 -->
+  <hp:p id="1000000012" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <hp:p id="1000000013" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Section 1 heading (12pt bold) -->
+  <hp:p id="1000000014" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="8">
       <hp:t>1. {{섹션 제목}}</hp:t>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1400" textheight="1400" baseline="1190" spacing="840" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
   </hp:p>
-  <!-- 9. Body -->
-  <hp:p id="1000000010" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <!-- Empty line -->
+  <hp:p id="1000000015" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Body text -->
+  <hp:p id="1000000016" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0">
       <hp:t>{{본문 내용}}</hp:t>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
   </hp:p>
-  <!-- 10. Empty line -->
-  <hp:p id="1000000011" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t/>
+  <!-- Empty line -->
+  <hp:p id="1000000017" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Subsection 가. -->
+  <hp:p id="1000000018" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="9">
+      <hp:t>  가. {{소제목}}</hp:t>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
   </hp:p>
-  <!-- 11. Section heading 2 -->
-  <hp:p id="1000000012" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <!-- Subsection body -->
+  <hp:p id="1000000019" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>    {{소제목 내용}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- Subsection 나. -->
+  <hp:p id="1000000020" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="9">
+      <hp:t>  나. {{소제목}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- Subsection body -->
+  <hp:p id="1000000021" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>    {{소제목 내용}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- Empty line -->
+  <hp:p id="1000000022" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Section 2 heading -->
+  <hp:p id="1000000023" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="8">
       <hp:t>2. {{섹션 제목}}</hp:t>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1400" textheight="1400" baseline="1190" spacing="840" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
   </hp:p>
-  <!-- 12. Body -->
-  <hp:p id="1000000013" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <!-- Empty line -->
+  <hp:p id="1000000024" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Body text -->
+  <hp:p id="1000000025" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0">
       <hp:t>{{본문 내용}}</hp:t>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
   </hp:p>
-  <!-- 13. Empty line -->
-  <hp:p id="1000000014" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <!-- Empty line -->
+  <hp:p id="1000000026" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Data table: 4 cols x 3 rows -->
+  <hp:p id="1000000027" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0">
-      <hp:t/>
+      <hp:tbl id="1000000091" zOrder="0" numberingType="TABLE" textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES" lock="0" dropcapstyle="None" pageBreak="CELL" repeatHeader="0" cellSpacing="0" borderFillIDRef="3" noAdjust="0" rowCnt="3" colCnt="4">
+        <hp:sz width="42520" widthRelTo="ABSOLUTE" height="7200" heightRelTo="ABSOLUTE" protect="0"/>
+        <hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1" allowOverlap="0" holdAnchorAndSO="0" vertRelTo="PARA" horzRelTo="COLUMN" vertAlign="TOP" horzAlign="LEFT" vertOffset="0" horzOffset="0"/>
+        <hp:outMargin left="0" right="0" top="0" bottom="0"/>
+        <hp:inMargin left="0" right="0" top="0" bottom="0"/>
+        <!-- Header row -->
+        <hp:tr>
+          <hp:tc borderFillIDRef="4">
+            <hp:cellAddr colAddr="0" rowAddr="0"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000001" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="9"><hp:t>{{항목1}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="4">
+            <hp:cellAddr colAddr="1" rowAddr="0"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000002" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="9"><hp:t>{{항목2}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="4">
+            <hp:cellAddr colAddr="2" rowAddr="0"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000003" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="9"><hp:t>{{항목3}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="4">
+            <hp:cellAddr colAddr="3" rowAddr="0"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000004" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="9"><hp:t>{{항목4}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+        </hp:tr>
+        <!-- Data row 1 -->
+        <hp:tr>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="0" rowAddr="1"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000005" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="1" rowAddr="1"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000006" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="2" rowAddr="1"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000007" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="3" rowAddr="1"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000008" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+        </hp:tr>
+        <!-- Data row 2 -->
+        <hp:tr>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="0" rowAddr="2"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000009" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="1" rowAddr="2"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000010" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="2" rowAddr="2"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000011" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+          <hp:tc borderFillIDRef="3">
+            <hp:cellAddr colAddr="3" rowAddr="2"/>
+            <hp:cellSpan colSpan="1" rowSpan="1"/>
+            <hp:cellSz width="10630" height="2400"/>
+            <hp:cellMargin left="283" right="283" top="141" bottom="141"/>
+            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="10064" fieldName="">
+              <hp:p id="3000000012" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+              </hp:p>
+            </hp:subList>
+          </hp:tc>
+        </hp:tr>
+      </hp:tbl>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
   </hp:p>
-  <!-- 14. Table placeholder -->
-  <hp:p id="1000000015" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t>{{표 삽입 위치}}</hp:t>
-    </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
+  <!-- Empty line -->
+  <hp:p id="1000000028" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
   </hp:p>
-  <!-- 15. Empty line -->
-  <hp:p id="1000000016" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t/>
-    </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
-  </hp:p>
-  <!-- 16. Section heading 3 -->
-  <hp:p id="1000000017" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <!-- Section 3: Conclusion -->
+  <hp:p id="1000000029" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="8">
-      <hp:t>3. {{결론}}</hp:t>
+      <hp:t>3. {{결론 및 건의사항}}</hp:t>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1400" textheight="1400" baseline="1190" spacing="840" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
   </hp:p>
-  <!-- 17. Conclusion body -->
-  <hp:p id="1000000018" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <!-- Empty line -->
+  <hp:p id="1000000030" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Conclusion body -->
+  <hp:p id="1000000031" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0">
       <hp:t>{{결론 내용}}</hp:t>
     </hp:run>
-    <hp:linesegarray>
-      <hp:lineseg textpos="0" vertpos="0" vertsize="1000" textheight="1000" baseline="850" spacing="600" horzpos="0" horzsize="42520" flags="393216"/>
-    </hp:linesegarray>
+  </hp:p>
+  <!-- Empty lines x3 -->
+  <hp:p id="1000000032" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <hp:p id="1000000033" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <hp:p id="1000000034" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- Signature date (right-aligned) -->
+  <hp:p id="1000000035" paraPrIDRef="23" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>{{YYYY년 MM월 DD일}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- Empty line -->
+  <hp:p id="1000000036" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t/></hp:run>
+  </hp:p>
+  <!-- School name (right-aligned) -->
+  <hp:p id="1000000037" paraPrIDRef="23" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0">
+      <hp:t>{{소속 학교/기관명}}</hp:t>
+    </hp:run>
+  </hp:p>
+  <!-- Signer name (right-aligned, bold) -->
+  <hp:p id="1000000038" paraPrIDRef="23" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="9">
+      <hp:t>{{작성자 성명}} (인)</hp:t>
+    </hp:run>
   </hp:p>
 </hs:sec>

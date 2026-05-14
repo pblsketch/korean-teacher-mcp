@@ -43,7 +43,7 @@ SKILL_DIR = SCRIPT_DIR.parent
 TEMPLATES_DIR = SKILL_DIR / "hwpxskill-templates"
 BASE_DIR = TEMPLATES_DIR / "base"
 
-AVAILABLE_TEMPLATES = ["gonmun", "report", "minutes", "proposal", "worksheet", "lesson-plan", "assessment", "pbl", "discussion"]
+AVAILABLE_TEMPLATES = ["gonmun", "report", "minutes", "proposal", "worksheet", "lesson-plan", "assessment", "pbl", "discussion", "parent-newsletter", "checklist", "roster"]
 
 
 def validate_table_widths(work_dir: Path) -> None:
