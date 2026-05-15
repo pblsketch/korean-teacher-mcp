@@ -469,23 +469,6 @@
   <hp:p id="1000000064" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t/></hp:run>
   </hp:p>
-  <!-- 알레르기 또는 특이 체질 -->
-  <hp:p id="1000000065" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="9"><hp:t>&#x25B6; &#xC54C;&#xB808;&#xB974;&#xAE30; &#xB610;&#xB294; &#xD2B9;&#xC774; &#xCCB4;&#xC9C8;</hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000066" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>( )</hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000067" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t/></hp:run>
-  </hp:p>
-  <!-- 비상 연락처 -->
-  <hp:p id="1000000068" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="9"><hp:t>&#x25B6; &#xBE44;&#xC0C1; &#xC5F0;&#xB77D;&#xCC98;</hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000069" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>( )</hp:t></hp:run>
-  </hp:p>
   <!-- 빈 줄 2개 -->
   <hp:p id="1000000070" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t/></hp:run>
