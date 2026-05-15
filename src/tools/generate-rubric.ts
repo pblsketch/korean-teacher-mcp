@@ -102,7 +102,7 @@ export function registerRubricTool(server: McpServer, db: Client) {
         ``,
         `루브릭은 export_hwpx 도구로 HWPX 파일로 출력할 수 있습니다.`,
         `- **template**: \`"assessment"\``,
-        `- **section_xml**: assessment 템플릿의 플레이스홀더에 내용을 채워서 전달`,
+        `- **section_xml**: assessment 템플릿의 채울 자리 표시에 내용을 넣어 전달`,
         ``,
         `### 추가 포함 사항`,
         `- 각 영역별 배점 합계가 ${params.total_points}점이 되도록 조정`,

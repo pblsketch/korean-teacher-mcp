@@ -122,16 +122,16 @@
     <hp:run charPrIDRef="0"><hp:t/></hp:run>
   </hp:p>
   <hp:p id="1000000006" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>  ○ {{항목명}}: {{내용}}</hp:t></hp:run>
+    <hp:run charPrIDRef="0"><hp:t>  ○ {{항목명1}}: {{내용1}}</hp:t></hp:run>
   </hp:p>
   <hp:p id="1000000007" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>  ○ {{항목명}}: {{내용}}</hp:t></hp:run>
+    <hp:run charPrIDRef="0"><hp:t>  ○ {{항목명2}}: {{내용2}}</hp:t></hp:run>
   </hp:p>
   <hp:p id="1000000008" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t>    - {{세부 내용}}</hp:t></hp:run>
   </hp:p>
   <hp:p id="1000000009" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>  ○ {{항목명}}: {{내용}}</hp:t></hp:run>
+    <hp:run charPrIDRef="0"><hp:t>  ○ {{항목명3}}: {{내용3}}</hp:t></hp:run>
   </hp:p>
 
   <hp:p id="1000000010" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
@@ -178,10 +178,10 @@
     <hp:run charPrIDRef="0"><hp:t/></hp:run>
   </hp:p>
   <hp:p id="1000000013" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>  ○ {{항목 내용}}</hp:t></hp:run>
+    <hp:run charPrIDRef="0"><hp:t>  ○ {{항목 내용1}}</hp:t></hp:run>
   </hp:p>
   <hp:p id="1000000014" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>  ○ {{항목 내용}}</hp:t></hp:run>
+    <hp:run charPrIDRef="0"><hp:t>  ○ {{항목 내용2}}</hp:t></hp:run>
   </hp:p>
 
   <hp:p id="1000000015" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
@@ -328,7 +328,7 @@
           <hp:tc name="" header="0" hasMargin="1" protect="0" editable="0" dirty="1" borderFillIDRef="3">
             <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="0" textHeight="0" hasTextRef="0" hasNumRef="0">
               <hp:p paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0" id="1000000214">
-                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+                <hp:run charPrIDRef="0"><hp:t>{{데이터1-1}}</hp:t></hp:run>
               </hp:p>
             </hp:subList>
             <hp:cellAddr colAddr="0" rowAddr="1"/>
@@ -339,7 +339,7 @@
           <hp:tc name="" header="0" hasMargin="1" protect="0" editable="0" dirty="1" borderFillIDRef="3">
             <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="0" textHeight="0" hasTextRef="0" hasNumRef="0">
               <hp:p paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0" id="1000000215">
-                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+                <hp:run charPrIDRef="0"><hp:t>{{데이터1-2}}</hp:t></hp:run>
               </hp:p>
             </hp:subList>
             <hp:cellAddr colAddr="1" rowAddr="1"/>
@@ -350,7 +350,7 @@
           <hp:tc name="" header="0" hasMargin="1" protect="0" editable="0" dirty="1" borderFillIDRef="3">
             <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="0" textHeight="0" hasTextRef="0" hasNumRef="0">
               <hp:p paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0" id="1000000216">
-                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+                <hp:run charPrIDRef="0"><hp:t>{{데이터1-3}}</hp:t></hp:run>
               </hp:p>
             </hp:subList>
             <hp:cellAddr colAddr="2" rowAddr="1"/>
@@ -361,7 +361,7 @@
           <hp:tc name="" header="0" hasMargin="1" protect="0" editable="0" dirty="1" borderFillIDRef="3">
             <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="0" textHeight="0" hasTextRef="0" hasNumRef="0">
               <hp:p paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0" id="1000000217">
-                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+                <hp:run charPrIDRef="0"><hp:t>{{데이터1-4}}</hp:t></hp:run>
               </hp:p>
             </hp:subList>
             <hp:cellAddr colAddr="3" rowAddr="1"/>
@@ -375,7 +375,7 @@
           <hp:tc name="" header="0" hasMargin="1" protect="0" editable="0" dirty="1" borderFillIDRef="3">
             <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="0" textHeight="0" hasTextRef="0" hasNumRef="0">
               <hp:p paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0" id="1000000218">
-                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+                <hp:run charPrIDRef="0"><hp:t>{{데이터2-1}}</hp:t></hp:run>
               </hp:p>
             </hp:subList>
             <hp:cellAddr colAddr="0" rowAddr="2"/>
@@ -386,7 +386,7 @@
           <hp:tc name="" header="0" hasMargin="1" protect="0" editable="0" dirty="1" borderFillIDRef="3">
             <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="0" textHeight="0" hasTextRef="0" hasNumRef="0">
               <hp:p paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0" id="1000000219">
-                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+                <hp:run charPrIDRef="0"><hp:t>{{데이터2-2}}</hp:t></hp:run>
               </hp:p>
             </hp:subList>
             <hp:cellAddr colAddr="1" rowAddr="2"/>
@@ -397,7 +397,7 @@
           <hp:tc name="" header="0" hasMargin="1" protect="0" editable="0" dirty="1" borderFillIDRef="3">
             <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="0" textHeight="0" hasTextRef="0" hasNumRef="0">
               <hp:p paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0" id="1000000220">
-                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+                <hp:run charPrIDRef="0"><hp:t>{{데이터2-3}}</hp:t></hp:run>
               </hp:p>
             </hp:subList>
             <hp:cellAddr colAddr="2" rowAddr="2"/>
@@ -408,7 +408,7 @@
           <hp:tc name="" header="0" hasMargin="1" protect="0" editable="0" dirty="1" borderFillIDRef="3">
             <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="0" textHeight="0" hasTextRef="0" hasNumRef="0">
               <hp:p paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0" id="1000000221">
-                <hp:run charPrIDRef="0"><hp:t>{{데이터}}</hp:t></hp:run>
+                <hp:run charPrIDRef="0"><hp:t>{{데이터2-4}}</hp:t></hp:run>
               </hp:p>
             </hp:subList>
             <hp:cellAddr colAddr="3" rowAddr="2"/>
@@ -465,10 +465,10 @@
     <hp:run charPrIDRef="0"><hp:t/></hp:run>
   </hp:p>
   <hp:p id="1000000024" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>  ○ {{기대 효과 내용}}</hp:t></hp:run>
+    <hp:run charPrIDRef="0"><hp:t>  ○ {{기대 효과 내용1}}</hp:t></hp:run>
   </hp:p>
   <hp:p id="1000000025" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>  ○ {{기대 효과 내용}}</hp:t></hp:run>
+    <hp:run charPrIDRef="0"><hp:t>  ○ {{기대 효과 내용2}}</hp:t></hp:run>
   </hp:p>
 
   <!-- 하단 여백 + 페이지 번호 -->

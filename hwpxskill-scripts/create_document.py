@@ -153,6 +153,15 @@ def create_document(blocks: list[dict], output_path: str) -> None:
                 for c_idx, cell_text in enumerate(row):
                     if c_idx < num_cols:
                         table.set_cell_text(r_idx, c_idx, str(cell_text))
+                        # Set borderFillIDRef on each cell via the underlying XML
+                        # element. HwpxOxmlTableCell exposes no dedicated setter,
+                        # but the attribute is present on hp:tc and can be written
+                        # directly. Convention (CLAUDE.md): header row = 4 (grey),
+                        # data rows = 3 (default). The library already defaults to
+                        # borderFillIDRef="3", so this only overrides row 0.
+                        cell = table.cell(r_idx, c_idx)
+                        border_ref = "4" if r_idx == 0 else "3"
+                        cell.element.set("borderFillIDRef", border_ref)
 
         elif btype == "header":
             try:

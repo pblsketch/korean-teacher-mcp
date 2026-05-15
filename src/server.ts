@@ -220,6 +220,27 @@ async function createServer() {
     },
   );
 
+  // Register writing-principles resource (교육 문서 작성 원칙)
+  server.resource(
+    'writing-principles',
+    'resource://teacher/writing-principles',
+    {
+      description: '교육 문서 작성 원칙 — 개조식 변환, 문서 유형별 가이드(학습지/평가지/공문/수업계획/가정통신문), 흔한 실수 교정, AI 텍스트 주의사항.',
+      mimeType: 'text/markdown',
+    },
+    async () => {
+      const refPath = path.join(__dirname, 'resources', 'writing-principles.md');
+      const text = await readFile(refPath, 'utf-8');
+      return {
+        contents: [{
+          uri: 'resource://teacher/writing-principles',
+          text,
+          mimeType: 'text/markdown',
+        }],
+      };
+    },
+  );
+
   // Register Skills as MCP resources (모든 AI 클라이언트에서 접근 가능)
   const skillsDir = path.join(__dirname, 'resources', 'skills');
   try {
