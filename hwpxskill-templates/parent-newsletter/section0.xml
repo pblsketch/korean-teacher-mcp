@@ -63,13 +63,13 @@
             <hp:cellMargin left="510" right="510" top="283" bottom="283"/>
             <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="9610" fieldName="">
               <hp:p id="1000000003" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t/></hp:run>
+                <hp:run charPrIDRef="9"><hp:t/></hp:run>
               </hp:p>
               <hp:p id="1000000004" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
                 <hp:run charPrIDRef="9"><hp:t>{{학교명}}</hp:t></hp:run>
               </hp:p>
               <hp:p id="1000000005" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t/></hp:run>
+                <hp:run charPrIDRef="9"><hp:t/></hp:run>
               </hp:p>
             </hp:subList>
           </hp:tc>
@@ -97,10 +97,10 @@
             <hp:cellMargin left="510" right="510" top="283" bottom="283"/>
             <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="9610" fieldName="">
               <hp:p id="1000000009" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{전화번호}}</hp:t></hp:run>
+                <hp:run charPrIDRef="9"><hp:t>{{전화번호}}</hp:t></hp:run>
               </hp:p>
               <hp:p id="1000000010" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{팩스번호}}</hp:t></hp:run>
+                <hp:run charPrIDRef="9"><hp:t>{{팩스번호}}</hp:t></hp:run>
               </hp:p>
             </hp:subList>
           </hp:tc>
@@ -443,7 +443,7 @@
   </hp:p>
   <!-- 절취선 (가운데) -->
   <hp:p id="1000000057" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>&#x2702; - - - - - - - - - - - - - - - - - &#xC808; &#xCDE8; &#xC120; - - - - - - - - - - - - - - - - - &#x2702;</hp:t></hp:run>
+    <hp:run charPrIDRef="0"><hp:t>✂ - - - - - - - - - - - - - - - - - 절 취 선 - - - - - - - - - - - - - - - - - ✂</hp:t></hp:run>
   </hp:p>
   <hp:p id="1000000058" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t/></hp:run>
