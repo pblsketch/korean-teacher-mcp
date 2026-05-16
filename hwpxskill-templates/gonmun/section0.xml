@@ -100,20 +100,8 @@
       <hp:t>  2.  {{본문2}}</hp:t>
     </hp:run>
   </hp:p>
-  <!-- 11. Empty line -->
+  <!-- 11. Empty line before details -->
   <hp:p id="1000000011" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t/>
-    </hp:run>
-  </hp:p>
-  <!-- 12. "아 래" (center) -->
-  <hp:p id="1000000012" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:t>- 아 래 -</hp:t>
-    </hp:run>
-  </hp:p>
-  <!-- 13. Empty line -->
-  <hp:p id="1000000013" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0">
       <hp:t/>
     </hp:run>
