@@ -35,6 +35,14 @@ def _normalize_text(text: str, style: str) -> str:
     core = re.sub(r"([([{<])\s+", r"\1", core)
     core = re.sub(r"\s+([\])}>])", r"\1", core)
 
+    # Public-office headings should not combine a numbered hierarchy marker and
+    # a bullet marker on the same line. This most often happens when a template
+    # already supplies "1." and generated slot text also starts with "□".
+    # Keep the higher-level number/letter marker and remove only the redundant
+    # bullet symbol so the author's heading text remains intact.
+    core = re.sub(r"^(\s*(?:\d+\.|[가-힣]\.\s?|\d+\)|[가-힣]\))\s*)[□○※*]\s+", r"\1", core)
+    core = re.sub(r"^(\s*(?:\d+\.|[가-힣]\.\s?|\d+\)|[가-힣]\))\s*)-\s+(?=\S)", r"\1", core)
+
     # `style` is reserved for future policies. For now both 'gaejosk' and
     # 'seosul' use the same conservative cleanup to avoid unintended rewrites.
     return leading + core + trailing
