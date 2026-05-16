@@ -1,803 +1,134 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hs:sec xmlns:hp="http://www.hancom.co.kr/hwpml/2011/paragraph" xmlns:hs="http://www.hancom.co.kr/hwpml/2011/section">
-  <hp:p id="1000000001" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:secPr id="" textDirection="HORIZONTAL" spaceColumns="1134" tabStop="8000" tabStopVal="4000" tabStopUnit="HWPUNIT" outlineShapeIDRef="1" memoShapeIDRef="0" textVerticalWidthHead="0" masterPageCnt="0">
-        <hp:grid lineGrid="0" charGrid="0" wonggojiFormat="0"/>
-        <hp:startNum pageStartsOn="BOTH" page="0" pic="0" tbl="0" equation="0"/>
-        <hp:visibility hideFirstHeader="0" hideFirstFooter="0" hideFirstMasterPage="0" border="SHOW_ALL" fill="SHOW_ALL" hideFirstPageNum="0" hideFirstEmptyLine="0" showLineNumber="0"/>
-        <hp:lineNumberShape restartType="0" countBy="0" distance="0" startNumber="0"/>
-        <hp:pagePr landscape="WIDELY" width="59528" height="84186" gutterType="LEFT_ONLY">
-          <hp:margin header="4252" footer="4252" gutter="0" left="8504" right="8504" top="5668" bottom="4252"/>
-        </hp:pagePr>
-        <hp:footNotePr>
-          <hp:autoNumFormat type="DIGIT" userChar="" prefixChar="" suffixChar=")" supscript="0"/>
-          <hp:noteLine length="-1" type="SOLID" width="0.12 mm" color="#000000"/>
-          <hp:noteSpacing betweenNotes="283" belowLine="567" aboveLine="850"/>
-          <hp:numbering type="CONTINUOUS" newNum="1"/>
-          <hp:placement place="EACH_COLUMN" beneathText="0"/>
-        </hp:footNotePr>
-        <hp:endNotePr>
-          <hp:autoNumFormat type="DIGIT" userChar="" prefixChar="" suffixChar=")" supscript="0"/>
-          <hp:noteLine length="14692344" type="SOLID" width="0.12 mm" color="#000000"/>
-          <hp:noteSpacing betweenNotes="0" belowLine="567" aboveLine="850"/>
-          <hp:numbering type="CONTINUOUS" newNum="1"/>
-          <hp:placement place="END_OF_DOCUMENT" beneathText="0"/>
-        </hp:endNotePr>
-        <hp:pageBorderFill type="BOTH" borderFillIDRef="1" textBorder="PAPER" headerInside="0" footerInside="0" fillArea="PAPER">
-          <hp:offset left="1417" right="1417" top="1417" bottom="1417"/>
-        </hp:pageBorderFill>
-        <hp:pageBorderFill type="EVEN" borderFillIDRef="1" textBorder="PAPER" headerInside="0" footerInside="0" fillArea="PAPER">
-          <hp:offset left="1417" right="1417" top="1417" bottom="1417"/>
-        </hp:pageBorderFill>
-        <hp:pageBorderFill type="ODD" borderFillIDRef="1" textBorder="PAPER" headerInside="0" footerInside="0" fillArea="PAPER">
-          <hp:offset left="1417" right="1417" top="1417" bottom="1417"/>
-        </hp:pageBorderFill>
-      </hp:secPr>
-      <hp:ctrl>
-        <hp:colPr id="" type="NEWSPAPER" layout="LEFT" colCount="1" sameSz="1" sameGap="0"/>
-      </hp:ctrl>
-    </hp:run>
-  </hp:p>
-  <hp:p id="1000000002" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000001" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:secPr id="" textDirection="HORIZONTAL" spaceColumns="1134" tabStop="8000" tabStopVal="4000" tabStopUnit="HWPUNIT" outlineShapeIDRef="1" memoShapeIDRef="0" textVerticalWidthHead="0" masterPageCnt="0"><hp:grid lineGrid="0" charGrid="0" wonggojiFormat="0"/><hp:startNum pageStartsOn="BOTH" page="0" pic="0" tbl="0" equation="0"/><hp:visibility hideFirstHeader="0" hideFirstFooter="0" hideFirstMasterPage="0" border="SHOW_ALL" fill="SHOW_ALL" hideFirstPageNum="0" hideFirstEmptyLine="0" showLineNumber="0"/><hp:lineNumberShape restartType="0" countBy="0" distance="0" startNumber="0"/><hp:pagePr landscape="WIDELY" width="59528" height="84186" gutterType="LEFT_ONLY"><hp:margin header="4252" footer="4252" gutter="0" left="8504" right="8504" top="5668" bottom="4252"/></hp:pagePr><hp:footNotePr><hp:autoNumFormat type="DIGIT" userChar="" prefixChar="" suffixChar=")" supscript="0"/><hp:noteLine length="-1" type="SOLID" width="0.12 mm" color="#000000"/><hp:noteSpacing betweenNotes="283" belowLine="567" aboveLine="850"/><hp:numbering type="CONTINUOUS" newNum="1"/><hp:placement place="EACH_COLUMN" beneathText="0"/></hp:footNotePr><hp:endNotePr><hp:autoNumFormat type="DIGIT" userChar="" prefixChar="" suffixChar=")" supscript="0"/><hp:noteLine length="14692344" type="SOLID" width="0.12 mm" color="#000000"/><hp:noteSpacing betweenNotes="0" belowLine="567" aboveLine="850"/><hp:numbering type="CONTINUOUS" newNum="1"/><hp:placement place="END_OF_DOCUMENT" beneathText="0"/></hp:endNotePr><hp:pageBorderFill type="BOTH" borderFillIDRef="1" textBorder="PAPER" headerInside="0" footerInside="0" fillArea="PAPER"><hp:offset left="1417" right="1417" top="1417" bottom="1417"/></hp:pageBorderFill><hp:pageBorderFill type="EVEN" borderFillIDRef="1" textBorder="PAPER" headerInside="0" footerInside="0" fillArea="PAPER"><hp:offset left="1417" right="1417" top="1417" bottom="1417"/></hp:pageBorderFill><hp:pageBorderFill type="ODD" borderFillIDRef="1" textBorder="PAPER" headerInside="0" footerInside="0" fillArea="PAPER"><hp:offset left="1417" right="1417" top="1417" bottom="1417"/></hp:pageBorderFill></hp:secPr><hp:ctrl><hp:colPr id="" type="NEWSPAPER" layout="LEFT" colCount="1" sameSz="1" sameGap="0"/></hp:ctrl></hp:run></hp:p>
+  <hp:p id="3100000002" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000003" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="7"><hp:t>{{단원/주제}} 형성평가지</hp:t></hp:run>
+  <hp:p id="3100000003" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="7"><hp:t>{{교과/과목}} 형성평가</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000004" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000004" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="8"><hp:t>{{단원/주제}}</hp:t></hp:run>
+  </hp:p>
+  <hp:p id="3100000017" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:tbl id="3100000900" zOrder="0" numberingType="TABLE" textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES" lock="0" dropcapstyle="None" pageBreak="CELL" repeatHeader="0" cellSpacing="0" borderFillIDRef="3" noAdjust="0" rowCnt="2" colCnt="6"><hp:sz width="42520" widthRelTo="ABSOLUTE" height="3000" heightRelTo="ABSOLUTE" protect="0"/><hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1" allowOverlap="0" holdAnchorAndSO="0" vertRelTo="PARA" horzRelTo="COLUMN" vertAlign="TOP" horzAlign="LEFT" vertOffset="0" horzOffset="0"/><hp:outMargin left="0" right="0" top="0" bottom="0"/><hp:inMargin left="0" right="0" top="0" bottom="0"/><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5315" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4295" fieldName=""><hp:p id="3100000005" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>학교</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="10630" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="9610" fieldName=""><hp:p id="3100000006" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{학교명}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5315" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4295" fieldName=""><hp:p id="3100000007" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>학년/반</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="3" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="7441" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="6421" fieldName=""><hp:p id="3100000008" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{학년/반}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="4" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="4252" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName=""><hp:p id="3100000009" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>이름</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="5" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="9567" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="8547" fieldName=""><hp:p id="3100000010" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>________________</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5315" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4295" fieldName=""><hp:p id="3100000011" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>평가일</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="10630" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="9610" fieldName=""><hp:p id="3100000012" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{평가일}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5315" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4295" fieldName=""><hp:p id="3100000013" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>총점</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="3" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="7441" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="6421" fieldName=""><hp:p id="3100000014" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{총점}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="4" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="4252" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName=""><hp:p id="3100000015" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>유형</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="5" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="9567" height="1500"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="8547" fieldName=""><hp:p id="3100000016" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{평가 유형}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr></hp:tbl></hp:run></hp:p>
+  <hp:p id="3100000018" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t>※ 다음 물음에 답하시오. 선택형은 정답의 번호를 괄호 안에 쓰고, 서술형은 조건에 맞게 문장으로 쓰시오.</hp:t></hp:run>
+  </hp:p>
+  <hp:p id="3100000019" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000017" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:tbl id="1000000900" zOrder="0" numberingType="TABLE" textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES" lock="0" dropcapstyle="None" pageBreak="CELL" repeatHeader="0" cellSpacing="0" borderFillIDRef="3" noAdjust="0" rowCnt="3" colCnt="4">
-        <hp:sz width="42520" widthRelTo="ABSOLUTE" height="4950" heightRelTo="ABSOLUTE" protect="0"/>
-        <hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1" allowOverlap="0" holdAnchorAndSO="0" vertRelTo="PARA" horzRelTo="COLUMN" vertAlign="TOP" horzAlign="LEFT" vertOffset="0" horzOffset="0"/>
-        <hp:outMargin left="0" right="0" top="0" bottom="0"/>
-        <hp:inMargin left="0" right="0" top="0" bottom="0"/>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="5315" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4295" fieldName="">
-              <hp:p id="1000000005" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>교과</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="15945" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14925" fieldName="">
-              <hp:p id="1000000006" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{교과/과목}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="5315" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4295" fieldName="">
-              <hp:p id="1000000007" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>학년/반</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="3" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="15945" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14925" fieldName="">
-              <hp:p id="1000000008" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{학년/반}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="5315" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4295" fieldName="">
-              <hp:p id="1000000009" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>이름</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="15945" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14925" fieldName="">
-              <hp:p id="1000000010" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>________________</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="5315" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4295" fieldName="">
-              <hp:p id="1000000011" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>평가일</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="3" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="15945" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14925" fieldName="">
-              <hp:p id="1000000012" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{평가일}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="5315" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4295" fieldName="">
-              <hp:p id="1000000013" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>평가 유형</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="15945" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14925" fieldName="">
-              <hp:p id="1000000014" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{평가 유형}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="5315" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4295" fieldName="">
-              <hp:p id="1000000015" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>총점</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="3" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="15945" height="1650"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14925" fieldName="">
-              <hp:p id="1000000016" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{총점}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-      </hp:tbl>
-    </hp:run>
-  </hp:p>
-  <hp:p id="1000000018" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000019" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>※ 다음 물음에 답하시오. 선택형은 정답의 번호를 쓰고, 서술형은 조건에 맞게 문장으로 쓰시오.</hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000020" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000021" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000020" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t>1. {{문항 내용1}}  [{{배점1}}]</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000022" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>답: ________________________________________________________________</hp:t></hp:run>
+  <hp:p id="3100000021" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t>정답: {{답란1}}</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000023" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>____________________________________________________________________</hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000024" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000022" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000025" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000023" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t>2. {{문항 내용2}}  [{{배점2}}]</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000026" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>답: ________________________________________________________________</hp:t></hp:run>
+  <hp:p id="3100000024" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t>정답: {{답란2}}</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000027" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>____________________________________________________________________</hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000028" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000025" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000029" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000026" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t>3. {{문항 내용3}}  [{{배점3}}]</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000030" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>답: ________________________________________________________________</hp:t></hp:run>
+  <hp:p id="3100000027" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t>정답: {{답란3}}</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000031" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>____________________________________________________________________</hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000032" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000028" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000033" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000029" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t>4. {{문항 내용4}}  [{{배점4}}]</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000034" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>답: ________________________________________________________________</hp:t></hp:run>
+  <hp:p id="3100000030" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t>정답: {{답란4}}</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000035" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>____________________________________________________________________</hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000036" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000031" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000037" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000032" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t>5. {{문항 내용5}}  [{{배점5}}]</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000038" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>답: ________________________________________________________________</hp:t></hp:run>
+  <hp:p id="3100000033" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t>정답: {{답란5}}</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000039" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>____________________________________________________________________</hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000040" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000034" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000041" paraPrIDRef="20" styleIDRef="0" pageBreak="1" columnBreak="0" merged="0">
+  <hp:p id="3100000035" paraPrIDRef="20" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="9"><hp:t>- 끝 -</hp:t></hp:run>
+  </hp:p>
+  <hp:p id="3100000036" paraPrIDRef="20" styleIDRef="0" pageBreak="1" columnBreak="0" merged="0">
     <hp:run charPrIDRef="7"><hp:t>정답 및 해설지</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000042" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t>※ 아래 내용은 교사용 정답·해설입니다. 학생용 문제지 배부 시에는 이 쪽을 제외하거나 별도 인쇄하세요.</hp:t></hp:run>
+  <hp:p id="3100000037" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="0"><hp:t>※ 교사용 자료입니다. 학생용 문제지 배부 시 이 쪽은 제외하거나 별도 인쇄하세요.</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000043" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000038" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000068" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:tbl id="1000000901" zOrder="0" numberingType="TABLE" textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES" lock="0" dropcapstyle="None" pageBreak="CELL" repeatHeader="0" cellSpacing="0" borderFillIDRef="3" noAdjust="0" rowCnt="6" colCnt="4">
-        <hp:sz width="42520" widthRelTo="ABSOLUTE" height="16800" heightRelTo="ABSOLUTE" protect="0"/>
-        <hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1" allowOverlap="0" holdAnchorAndSO="0" vertRelTo="PARA" horzRelTo="COLUMN" vertAlign="TOP" horzAlign="LEFT" vertOffset="0" horzOffset="0"/>
-        <hp:outMargin left="0" right="0" top="0" bottom="0"/>
-        <hp:inMargin left="0" right="0" top="0" bottom="0"/>
-        <hp:tr>
-          <hp:tc borderFillIDRef="4">
-            <hp:cellAddr colAddr="0" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000044" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="9"><hp:t>문항</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="4">
-            <hp:cellAddr colAddr="1" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000045" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="9"><hp:t>정답</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="4">
-            <hp:cellAddr colAddr="2" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="25512" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="24492" fieldName="">
-              <hp:p id="1000000046" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="9"><hp:t>해설 및 채점 기준</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="4">
-            <hp:cellAddr colAddr="3" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000047" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="9"><hp:t>배점</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000048" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>1</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000049" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{정답1}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="25512" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="24492" fieldName="">
-              <hp:p id="1000000050" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{해설1}}
-{{채점 기준1}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="3" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000051" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{배점1}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000052" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>2</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000053" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{정답2}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="25512" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="24492" fieldName="">
-              <hp:p id="1000000054" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{해설2}}
-{{채점 기준2}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="3" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000055" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{배점2}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="3"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000056" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>3</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="3"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000057" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{정답3}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="3"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="25512" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="24492" fieldName="">
-              <hp:p id="1000000058" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{해설3}}
-{{채점 기준3}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="3" rowAddr="3"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000059" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{배점3}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="4"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000060" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>4</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="4"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000061" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{정답4}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="4"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="25512" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="24492" fieldName="">
-              <hp:p id="1000000062" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{해설4}}
-{{채점 기준4}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="3" rowAddr="4"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000063" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{배점4}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="5"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000064" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>5</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="5"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000065" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{정답5}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="5"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="25512" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="24492" fieldName="">
-              <hp:p id="1000000066" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{해설5}}
-{{채점 기준5}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="3" rowAddr="5"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="2800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000067" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{배점5}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-      </hp:tbl>
-    </hp:run>
-  </hp:p>
-  <hp:p id="1000000069" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000069" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:tbl id="3100000901" zOrder="0" numberingType="TABLE" textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES" lock="0" dropcapstyle="None" pageBreak="CELL" repeatHeader="0" cellSpacing="0" borderFillIDRef="3" noAdjust="0" rowCnt="6" colCnt="5"><hp:sz width="42520" widthRelTo="ABSOLUTE" height="16200" heightRelTo="ABSOLUTE" protect="0"/><hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1" allowOverlap="0" holdAnchorAndSO="0" vertRelTo="PARA" horzRelTo="COLUMN" vertAlign="TOP" horzAlign="LEFT" vertOffset="0" horzOffset="0"/><hp:outMargin left="0" right="0" top="0" bottom="0"/><hp:inMargin left="0" right="0" top="0" bottom="0"/><hp:tr><hp:tc borderFillIDRef="4"><hp:cellAddr colAddr="0" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="3402" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="2382" fieldName=""><hp:p id="3100000039" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="9"><hp:t>문항</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="4"><hp:cellAddr colAddr="1" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5102" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4082" fieldName=""><hp:p id="3100000040" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="9"><hp:t>정답</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="4"><hp:cellAddr colAddr="2" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="15307" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14287" fieldName=""><hp:p id="3100000041" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="9"><hp:t>해설</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="4"><hp:cellAddr colAddr="3" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="13606" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="12586" fieldName=""><hp:p id="3100000042" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="9"><hp:t>채점 기준</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="4"><hp:cellAddr colAddr="4" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5103" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4083" fieldName=""><hp:p id="3100000043" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="9"><hp:t>배점</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="3402" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="2382" fieldName=""><hp:p id="3100000044" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>1</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5102" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4082" fieldName=""><hp:p id="3100000045" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{정답1}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="15307" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14287" fieldName=""><hp:p id="3100000046" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{해설1}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="3" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="13606" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="12586" fieldName=""><hp:p id="3100000047" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{채점 기준1}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="4" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5103" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4083" fieldName=""><hp:p id="3100000048" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{배점1}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="2"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="3402" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="2382" fieldName=""><hp:p id="3100000049" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>2</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="2"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5102" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4082" fieldName=""><hp:p id="3100000050" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{정답2}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="2"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="15307" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14287" fieldName=""><hp:p id="3100000051" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{해설2}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="3" rowAddr="2"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="13606" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="12586" fieldName=""><hp:p id="3100000052" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{채점 기준2}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="4" rowAddr="2"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5103" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4083" fieldName=""><hp:p id="3100000053" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{배점2}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="3"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="3402" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="2382" fieldName=""><hp:p id="3100000054" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>3</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="3"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5102" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4082" fieldName=""><hp:p id="3100000055" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{정답3}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="3"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="15307" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14287" fieldName=""><hp:p id="3100000056" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{해설3}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="3" rowAddr="3"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="13606" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="12586" fieldName=""><hp:p id="3100000057" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{채점 기준3}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="4" rowAddr="3"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5103" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4083" fieldName=""><hp:p id="3100000058" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{배점3}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="4"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="3402" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="2382" fieldName=""><hp:p id="3100000059" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>4</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="4"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5102" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4082" fieldName=""><hp:p id="3100000060" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{정답4}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="4"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="15307" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14287" fieldName=""><hp:p id="3100000061" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{해설4}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="3" rowAddr="4"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="13606" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="12586" fieldName=""><hp:p id="3100000062" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{채점 기준4}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="4" rowAddr="4"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5103" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4083" fieldName=""><hp:p id="3100000063" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{배점4}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="5"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="3402" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="2382" fieldName=""><hp:p id="3100000064" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>5</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="5"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5102" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4082" fieldName=""><hp:p id="3100000065" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{정답5}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="5"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="15307" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="14287" fieldName=""><hp:p id="3100000066" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{해설5}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="3" rowAddr="5"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="13606" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="12586" fieldName=""><hp:p id="3100000067" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{채점 기준5}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="4" rowAddr="5"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="5103" height="2700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="4083" fieldName=""><hp:p id="3100000068" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{배점5}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr></hp:tbl></hp:run></hp:p>
+  <hp:p id="3100000070" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000070" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="8"><hp:t>평가 목표 및 출제 의도</hp:t></hp:run>
+  <hp:p id="3100000071" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+    <hp:run charPrIDRef="8"><hp:t>출제 의도 및 문항 정보</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000071" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
+  <hp:p id="3100000072" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
     <hp:run charPrIDRef="0"><hp:t>{{평가 목표}}</hp:t></hp:run>
   </hp:p>
-  <hp:p id="1000000072" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0"><hp:t></hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000073" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="8"><hp:t>문항별 난이도 및 평가 요소</hp:t></hp:run>
-  </hp:p>
-  <hp:p id="1000000092" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-    <hp:run charPrIDRef="0">
-      <hp:tbl id="1000000902" zOrder="0" numberingType="TABLE" textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES" lock="0" dropcapstyle="None" pageBreak="CELL" repeatHeader="0" cellSpacing="0" borderFillIDRef="3" noAdjust="0" rowCnt="6" colCnt="3">
-        <hp:sz width="42520" widthRelTo="ABSOLUTE" height="10800" heightRelTo="ABSOLUTE" protect="0"/>
-        <hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1" allowOverlap="0" holdAnchorAndSO="0" vertRelTo="PARA" horzRelTo="COLUMN" vertAlign="TOP" horzAlign="LEFT" vertOffset="0" horzOffset="0"/>
-        <hp:outMargin left="0" right="0" top="0" bottom="0"/>
-        <hp:inMargin left="0" right="0" top="0" bottom="0"/>
-        <hp:tr>
-          <hp:tc borderFillIDRef="4">
-            <hp:cellAddr colAddr="0" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000074" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="9"><hp:t>문항</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="4">
-            <hp:cellAddr colAddr="1" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000075" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="9"><hp:t>난이도</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="4">
-            <hp:cellAddr colAddr="2" rowAddr="0"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="29764" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName="">
-              <hp:p id="1000000076" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="9"><hp:t>평가 요소</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000077" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>1</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000078" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{난이도1}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="1"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="29764" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName="">
-              <hp:p id="1000000079" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{평가 요소1}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000080" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>2</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000081" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{난이도2}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="2"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="29764" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName="">
-              <hp:p id="1000000082" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{평가 요소2}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="3"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000083" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>3</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="3"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000084" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{난이도3}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="3"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="29764" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName="">
-              <hp:p id="1000000085" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{평가 요소3}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="4"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000086" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>4</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="4"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000087" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{난이도4}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="4"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="29764" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName="">
-              <hp:p id="1000000088" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{평가 요소4}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-        <hp:tr>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="0" rowAddr="5"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="4252" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName="">
-              <hp:p id="1000000089" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>5</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="1" rowAddr="5"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="8504" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName="">
-              <hp:p id="1000000090" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{난이도5}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-          <hp:tc borderFillIDRef="3">
-            <hp:cellAddr colAddr="2" rowAddr="5"/>
-            <hp:cellSpan colSpan="1" rowSpan="1"/>
-            <hp:cellSz width="29764" height="1800"/>
-            <hp:cellMargin left="510" right="510" top="141" bottom="141"/>
-            <hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName="">
-              <hp:p id="1000000091" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0">
-                <hp:run charPrIDRef="0"><hp:t>{{평가 요소5}}</hp:t></hp:run>
-              </hp:p>
-            </hp:subList>
-          </hp:tc>
-        </hp:tr>
-      </hp:tbl>
-    </hp:run>
-  </hp:p>
+  <hp:p id="3100000091" paraPrIDRef="0" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:tbl id="3100000902" zOrder="0" numberingType="TABLE" textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES" lock="0" dropcapstyle="None" pageBreak="CELL" repeatHeader="0" cellSpacing="0" borderFillIDRef="3" noAdjust="0" rowCnt="6" colCnt="3"><hp:sz width="42520" widthRelTo="ABSOLUTE" height="10200" heightRelTo="ABSOLUTE" protect="0"/><hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1" allowOverlap="0" holdAnchorAndSO="0" vertRelTo="PARA" horzRelTo="COLUMN" vertAlign="TOP" horzAlign="LEFT" vertOffset="0" horzOffset="0"/><hp:outMargin left="0" right="0" top="0" bottom="0"/><hp:inMargin left="0" right="0" top="0" bottom="0"/><hp:tr><hp:tc borderFillIDRef="4"><hp:cellAddr colAddr="0" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="4252" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName=""><hp:p id="3100000073" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="9"><hp:t>문항</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="4"><hp:cellAddr colAddr="1" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="8504" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName=""><hp:p id="3100000074" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="9"><hp:t>난이도</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="4"><hp:cellAddr colAddr="2" rowAddr="0"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="29764" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName=""><hp:p id="3100000075" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="9"><hp:t>평가 요소</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="4252" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName=""><hp:p id="3100000076" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>1</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="8504" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName=""><hp:p id="3100000077" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{난이도1}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="1"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="29764" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName=""><hp:p id="3100000078" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{평가 요소1}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="2"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="4252" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName=""><hp:p id="3100000079" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>2</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="2"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="8504" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName=""><hp:p id="3100000080" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{난이도2}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="2"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="29764" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName=""><hp:p id="3100000081" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{평가 요소2}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="3"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="4252" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName=""><hp:p id="3100000082" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>3</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="3"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="8504" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName=""><hp:p id="3100000083" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{난이도3}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="3"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="29764" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName=""><hp:p id="3100000084" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{평가 요소3}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="4"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="4252" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName=""><hp:p id="3100000085" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>4</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="4"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="8504" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName=""><hp:p id="3100000086" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{난이도4}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="4"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="29764" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName=""><hp:p id="3100000087" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{평가 요소4}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr><hp:tr><hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="0" rowAddr="5"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="4252" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="3232" fieldName=""><hp:p id="3100000088" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>5</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="1" rowAddr="5"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="8504" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="7484" fieldName=""><hp:p id="3100000089" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{난이도5}}</hp:t></hp:run></hp:p></hp:subList></hp:tc>
+<hp:tc borderFillIDRef="3"><hp:cellAddr colAddr="2" rowAddr="5"/><hp:cellSpan colSpan="1" rowSpan="1"/><hp:cellSz width="29764" height="1700"/><hp:cellMargin left="510" right="510" top="141" bottom="141"/><hp:subList id="" textDirection="HORIZONTAL" lineWrap="BREAK" vertAlign="CENTER" linkListIDRef="0" linkListNextIDRef="0" textWidth="28744" fieldName=""><hp:p id="3100000090" paraPrIDRef="22" styleIDRef="0" pageBreak="0" columnBreak="0" merged="0"><hp:run charPrIDRef="0"><hp:t>{{평가 요소5}}</hp:t></hp:run></hp:p></hp:subList></hp:tc></hp:tr></hp:tbl></hp:run></hp:p>
 </hs:sec>
