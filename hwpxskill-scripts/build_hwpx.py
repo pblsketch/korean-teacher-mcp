@@ -46,7 +46,7 @@ SKILL_DIR = SCRIPT_DIR.parent
 TEMPLATES_DIR = SKILL_DIR / "hwpxskill-templates"
 BASE_DIR = TEMPLATES_DIR / "base"
 
-AVAILABLE_TEMPLATES = ["gonmun", "report", "minutes", "proposal", "worksheet", "lesson-plan", "assessment", "pbl", "discussion", "parent-newsletter", "checklist", "roster"]
+AVAILABLE_TEMPLATES = ["gonmun", "report", "minutes", "proposal", "worksheet", "lesson-plan", "assessment", "performance-assessment", "pbl", "discussion", "parent-newsletter", "checklist", "roster"]
 
 
 def validate_border_fills(work_dir: Path) -> None:
