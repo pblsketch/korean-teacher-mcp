@@ -72,7 +72,7 @@ export function registerOfficialDocumentTool(server: McpServer) {
         ``,
         `### export_hwpx 파라미터`,
         `- **template**: \`"gonmun"\``,
-        `- **section_xml**: 아래 아래 채울 자리 표시에 내용을 넣어 전달`,
+        `- **section_xml**: 아래 채울 자리 표시에 내용을 넣어 전달`,
         ``,
         `### 채울 자리 표시 매핑 (gonmun 템플릿)`,
         `**공통 (내부/외부)**:`,
