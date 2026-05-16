@@ -11,6 +11,7 @@ export function registerDiscussionTool(server: McpServer, db: Client) {
       unit_id: z.string().optional().describe('단원 ID'),
       grade: z.string().optional().describe('학년-학기 또는 과목명. 자연어 입력 가능 (예: "중2", "중학교 2학년 1학기", "공통국어"). 사용 가능한 값: 중1-1, 중1-2, 중2-1, 중2-2, 공통국어1, 공통국어2, 문학, 독서와 작문, 화법과 언어, 독서 토론과 글쓰기, 주제 탐구 독서'),
       unit_number: z.number().int().optional().describe('단원 번호'),
+      sub_unit: z.string().optional().describe('소단원명 또는 핵심어. grade+unit_number만으로 여러 소단원이 검색될 때 정확한 문서 생성을 위해 사용'),
       passage_id: z.string().optional().describe('특정 지문 ID'),
       discussion_type: z.enum(['찬반', '원탁', '소그룹', '패널']).default('찬반').describe('토론 유형'),
       group_size: z.number().int().min(2).max(8).default(4).describe('모둠 인원'),
@@ -19,9 +20,33 @@ export function registerDiscussionTool(server: McpServer, db: Client) {
       let unitId = params.unit_id;
 
       if (!unitId && params.grade) {
-        const units = await getUnitsByFilter(db, { grade: params.grade, unit_number: params.unit_number });
+        let units = await getUnitsByFilter(db, { grade: params.grade, unit_number: params.unit_number });
+        if (params.sub_unit) {
+          const keyword = params.sub_unit.trim();
+          units = units.filter(u =>
+            (u.sub_unit ?? '').includes(keyword) ||
+            (u.title ?? '').includes(keyword),
+          );
+        }
         if (units.length === 0) {
           return { content: [{ type: 'text' as const, text: '해당 조건의 단원을 찾을 수 없습니다.' }] };
+        }
+        if (units.length > 1 && !params.sub_unit) {
+          const candidates = units
+            .slice(0, 12)
+            .map((u, i) => `${i + 1}. unit_id: ${u.id}\n   단원: ${u.title ?? ''}\n   소단원: ${u.sub_unit ?? '(없음)'}`)
+            .join('\n');
+          return {
+            content: [{
+              type: 'text' as const,
+              text: [
+                'grade+unit_number 조건에 여러 소단원이 검색되었습니다.',
+                '토의토론 자료는 소단원에 따라 지문과 활동이 달라지므로, 정확한 생성을 위해 unit_id 또는 sub_unit을 지정해 주세요.',
+                '',
+                candidates,
+              ].join('\n'),
+            }],
+          };
         }
         unitId = units[0].id;
       }
