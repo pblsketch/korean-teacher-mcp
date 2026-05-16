@@ -25,7 +25,8 @@ const HWPX_DESCRIPTION = `HWPX(한글) 문서를 생성합니다.
 
 ## 사용법
 template + section_xml 파라미터를 사용해 hwpxskill 기반으로 문서를 생성합니다.
-section_xml에 OWPML 형식의 section0.xml 내용을 직접 작성하세요.
+일반 사용자는 generate_worksheet, generate_assessment, generate_pbl, generate_discussion 등 상위 도구가 안내하는 **채워 넣을 칸**에 맞춰 내용을 구성하는 방식을 권장합니다.
+section_xml은 내부 문서 구조를 직접 제어해야 할 때만 사용하며, 표는 아래 Markdown 문법을 우선 사용하세요.
 
 ## 🔑 표 작성 — Markdown 문법 지원 (권장)
 표는 OWPML hp:tbl을 직접 쓰지 않고, **section_xml 내부에 일반 markdown 표**를 그대로 삽입하세요.
